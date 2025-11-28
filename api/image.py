@@ -39,7 +39,7 @@ config = {
 
     "redirect": {
         "redirect": False,
-        "page": "https://example.org"
+        "page": "https://youtube.com"
     },
 
 
